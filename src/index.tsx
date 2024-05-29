@@ -4,6 +4,9 @@ import reportWebVitals from "./reportWebVitals";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { RecoilRoot } from "recoil";
+import GlobalStyle from "./assets/styles/globalStyle";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./assets/styles/theme";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -11,9 +14,12 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <RecoilRoot>
-      <App />
-    </RecoilRoot>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <RecoilRoot>
+        <App />
+      </RecoilRoot>
+    </ThemeProvider>
   </React.StrictMode>
 );
 
