@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import Header from "./components/header/Header";
+import List from "./components/todoList/List";
 import WriteTodo from "./components/todoInput/WriteTodo";
 
 function App() {
   return (
     <AppContainer>
       <Header />
-      {/* <List /> */}
+      <List />
       <WriteTodo />
     </AppContainer>
   );
