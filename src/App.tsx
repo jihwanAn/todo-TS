@@ -1,7 +1,12 @@
 import styled from "styled-components";
+import Header from "./components/header/Header";
 
 function App() {
-  return <AppContainer>todo</AppContainer>;
+  return (
+    <AppContainer>
+      <Header />
+    </AppContainer>
+  );
 }
 
 const AppContainer = styled.div`
