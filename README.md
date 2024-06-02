@@ -2,9 +2,11 @@
 
 > TypeScript를 학습하고 적용해 보기 위해 개발했습니다.
 
+[https://10000-things-todo.netlify.app](https://10000-things-todo.netlify.app)
+
 ### 사용 기술
 
-`React`, `TypeScript`, `styled-components`, `recoil`
+`React`, `TypeScript`, `Styled-components`, `Recoil`
 
 ### 주요 기능
 
